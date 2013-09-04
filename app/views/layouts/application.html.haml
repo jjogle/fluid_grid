@@ -1,0 +1,15 @@
+!!! 5
+%html
+  %head
+    %title FluidGrid
+    = stylesheet_link_tag    "application", :media => "screen"
+    = javascript_include_tag "application"
+  %body
+    .wrapper
+      %header
+        .row
+          header
+      = yield
+      %footer
+        .row
+          footer
